@@ -1,0 +1,12 @@
+/* .work-pic{
+    animation: move 6s steps(100, end) infinite forwards;
+    position: relative;
+    right: 0;
+}
+
+@keyframes move {
+    50%{
+        right: 20px;
+    }
+    
+} */

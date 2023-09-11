@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="hover.css" />
+    <link rel="stylesheet" href="Animation.css">
+    <link rel="stylesheet" href="mediaQuery.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
+
+  </head>
+  <body>
+    <header>
+      <nav id="nav-bar">
+        <a href="#home" class="logo"><img src="img/WhatsApp Image 2023-09-10 at 21.17.35.jpg">Aditya <span>Bais</span></a>
+        <div class="nav-items">
+          <a href="#home">Home</a>
+          <a href="#skills">Skills</a>
+          <a href="#work">Work</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <label class="menu-button" for="check"><div class="material-symbols-outlined">
+          menu
+          </div></label>
+      </nav>
+    </header>
+
+    <!-- toggel nav-bar -->
+    <nav id="toggel-nav-bar">
+      <input type="checkbox" id="check">
+      <div class="toggel-nav-items">
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+    <main>
+      <!-- section 1 Home part -->
+      <section id="home">
+        <div class="home-text">
+          <div class="text-1">Hey, I am Aditya</div>
+          <div class="text-2">A Web Developer</div>
+        </div>
+      </section>
+
+      <!-- SECTION 2 MY SKILLS -->
+      <section id="skills">
+        <div class="skill-head"><span class="red">S</span>kills</div>
+        <div class="skill-box">
+          <div class="skills-list">
+            <div class="box">
+              <div class="skill-title">HTML</div>
+              <div class="skill-description">
+                I have a strong foundation in HTML, which forms the backbone of
+                every web page.
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="skill-title">CSS</div>
+              <div class="skill-description">
+                I excel in crafting engaging and responsive designs with CSS.
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="skill-title">JavaScript</div>
+              <div class="skill-description">
+                I'm proficient in enhancing website interactivity and
+                functionality with JavaScript.
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="skill-title">C Language</div>
+              <div class="skill-description">
+                My programming skills extend to C, which helps me think
+                logically and problem-solve efficiently.
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="skill-title">Git/GitHub</div>
+              <div class="skill-description">
+                I'm experienced in version control, making collaboration
+                seamless and organized.
+              </div>
+            </div>
+          </div>
+          <div class="dp-1">
+            <img src="img/1685851657782-01.jpeg.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Work -->
+      <section id="work">
+        <div class="work-head"><span class="red">m</span>y <span class="red">w</span>ork</div>
+        <div class="project-list">
+          <div class="project reserved">
+            <a href="https://adityabais1.github.io/JourneyToPinnacle/" target="_blank" class="work-des">
+              <div class="des-head">Tribute Page for heroic personalities</div>
+              <div class="work-context">Explore our Tribute Page, where HTML, CSS, and JavaScript blend seamlessly to pay homage to heroic personalities. This webpage is a product of passion and dedication, showcasing the developer's commitment to celebrating these inspiring individuals. Discover their stories through interactive elements and captivating design.</div>
+            </a>
+            <div class="work-pic"><img src="ProjectScreenShot/journeyToPinnacle.png" alt=""></div>
+          </div>
+          <div class="project">
+            <a href="https://adityabais1.github.io/product_landing/" target="_blank" class="work-des">
+              <div class="des-head">Product Landing Page: Original Trombones</div>
+              <div class="work-context">Immerse yourself in the world of exquisite trombones with our Product Landing Page, meticulously crafted using HTML and CSS. Explore our range of premium trombones in a visually stunning and user-friendly environment. Experience the harmony of technology and musical artistry, inviting you to discover the perfect trombone for your musical journey.</div>
+            </a>
+            <div class="work-pic"><img src="ProjectScreenShot/OriginalTrombones.png" alt=""></div>
+          </div>
+          <div class="project reserved">
+            <a href="https://adityabais1.github.io/JS-Documentation/" target="_blank" class="work-des">
+              <div class="des-head">JavaScript Documentation Page: Your Beginner's Guide</div>
+              <div class="work-context">Delve into the world of JavaScript with our user-friendly documentation page, thoughtfully created for beginners embarking on their coding journey. Crafted using HTML and CSS, this resource offers a seamless and structured introduction to JavaScript's fundamentals. Explore topics, examples, and practical insights, all designed to ignite your passion for programming. Welcome to the exciting world of JavaScript, where your coding adventure begins!</div>
+            </a>
+            <div class="work-pic"><img src="ProjectScreenShot/JavaScript-Documentation.png" alt=""></div>
+          </div>
+          <div class="project">
+            <a href="https://github.com/adityabais1/Cat-painting" target="_blank" class="work-des">
+              <div class="des-head">Cat Painting: A CSS Masterpiece</div>
+              <div class="work-context">Behold the enchanting Cat Painting, a true work of art crafted entirely with pure CSS. Witness the magic of CSS as it brings this feline masterpiece to life, showcasing the creativity and skill of the developer. Explore every intricate detail and marvel at how CSS has been used to create this purr-fect visual delight. Experience the world of CSS artistry like never before!</div>
+            </a>
+            <div class="work-pic center"><img src="ProjectScreenShot/CatPainting.png" alt=""></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section  -->
+      <section id="about">
+        <div class="about-head">about me</div>
+        <section id="about-flex">
+          <div class="dp-2">
+            <img src="img/Formal Pic.png" alt="" />
+            <!-- <div class="frame"></div>  -->
+          </div>
+          <div class="about-div">
+            <p>
+              Hello, I'm <span class="red">Aditya Singh Bais</span>, a
+              passionate BCA student at Amity University, where my journey into
+              the world of computer science and technology began. My primary
+              passion lies in frontend development, where I wield
+              <span class="underline"
+                >HTML, CSS, JavaScript, Git/GitHub, and WordPress</span
+              >
+              to craft visually appealing and user-friendly web experiences. I
+              also have
+              <span class="highlight"
+                >a strong foundation in C programming, data structures, and
+                operating systems,</span
+              >
+              which enhances my problem-solving skills.
+            </p>
+
+            <p>
+              Beyond the frontend, I'm on a determined path to becoming a
+              well-rounded <span class="red">full-stack developer</span>, with
+              an insatiable thirst for learning and tackling complex challenges.
+              My academic journey started at
+              <span class="underline"
+                >Heera Public School, New Delhi, where I graduated with a solid
+                71% in my 12th grade.</span
+              >
+              This experience instilled in me a strong work ethic and commitment
+              to excellence that I carry forward in my current pursuits.
+            </p>
+
+            <p>
+              In addition to my tech endeavors, I'm a
+              <span class="red">chess enthusiast</span> who finds joy in
+              unraveling the intricate strategies of the game. When I'm not
+              immersed in the digital world, I'm
+              <span class="underline"
+                >exploring new horizons through travel</span
+              >. The diverse cultures and landscapes I encounter continually
+              inspire and fuel my creativity. If you're interested in
+              collaborating, discussing projects, or simply connecting, please
+              don't hesitate to reach out.
+              <span class="highlight"
+                >Let's embark on this exciting journey together!</span
+              >
+            </p>
+            <a
+              href="Resume PDF.pdf"
+              target="_blank"
+              download="Aditya Singh Resume.pdf"
+              class="dwn-resume"
+              >Download Resume</a
+            >
+          </div>
+        </section>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <div class="text-1">Let's work together...</div>
+        <div class="text-2">How do you take your coffee?</div>
+        <div class="contact-option">
+          <a href="#" target="_blank"
+            ><img src="Icons/icons8-facebook-100.png" class="contact-icon" />
+            Facebook</a
+          >
+          <a href="https://github.com/adityabais1" target="_blank"
+            ><img src="Icons/icons8-github-60.png" class="contact-icon" />
+            GitHub</a
+          >
+          <a href="#" target="_blank"
+            ><img src="Icons/icons8-twitter-90.png" class="contact-icon" />
+            Twitter</a
+          >
+          <a href="mailto:mail.adityasingh01@gmail.com" target="_blank"
+            ><img src="Icons/icons8-mail-96.png" class="contact-icon" /> Send a
+            Mail</a
+          >
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="red-line"></div>
+      <div class="copyright">
+        Copyright &COPY; 2023 Aditya Singh Bais. All rights reserved.
+      </div>
+    </footer>
+
+    <!-- java script zone -->
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+.box:hover {
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.162);
+  background: linear-gradient(white 60%,#990012a5);
+  width: 310px;
+  /* padding:20px 0px; */
+  transition: all 0.3s;
+}
+.home-text > .text-2:hover{
+    background-color: #990012;
+    color: white;
+    border: 2px solid #990012;
+}
+.dwn-resume:hover{
+    background-color: #990012;
+    color: white;
+}
+
+.contact-option > a:hover{
+    padding-top: 0px;
+    transition: all 0.3s;
+}
+
+.nav-items > a:hover{
+    color: #c10016;
+    /* background-color: rgba(255, 255, 255, 0.086); */
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+nav.sticky >.nav-item > a:hover{
+    background-color: rgba(0, 0, 0, 0.086);
+    color: #c10016;
+    
+}
+nav.sticky > label .material-symbols-outlined{
+    color: black;
+}
+
+.work-des:hover ~.work-pic{
+    height: 105%;
+    transition: all 1s;
+}
+.project{
+    overflow: hidden;
+}
+.work-pic:hover{
+    height: 105%;
+    transition: all 1s;   
+}

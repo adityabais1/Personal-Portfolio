@@ -1,0 +1,328 @@
+
+/* section 1 ---- Home */
+#home{
+    background: linear-gradient(rgba(0, 0, 0, 0.633), rgba(0, 0, 0, 0.386)), url("https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+    /* background-position: center; */
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+}
+
+/* .main-text{
+    height: 100vh;
+    width: 900px;
+    font-size: 3.5rem;
+    vertical-align: middle;
+    padding: 300px 200px;
+    text-align: center;
+    background-color: red;
+} */
+.home-text{
+    width: 100%;
+    color: rgb(219, 219, 219);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom:  10px; */
+}
+.home-text > .text-1{
+    font-size: 8rem;
+    padding-top: 30px ;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.home-text > .text-2{
+    font-size: 35px;
+    font-weight: 200;
+    /* font-weight: 100; */
+    color: red;
+    background-color: rgba(0, 0, 0, 0.108);
+    /* font-style: italic; */
+    text-transform: lowercase;
+    margin-top: 10px;
+    padding: 2px 10px;
+    border: 2px solid rgba(255, 0, 0, 0.566);
+}
+#skills{
+    height: auto;
+}
+.skill-head{
+    font-size: 50px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.skill-box{
+    display: flex;
+    font-size: 16px;
+    /* padding: 50px 0; */
+}
+.dp-1{
+    height: 100vh;
+    width: 50%;
+}
+
+.skills-list{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #FCF6F5;
+}
+.dp-1{
+    background: linear-gradient(90deg ,#FCF6F5,#990011);
+    display: flex;
+    /* align-items:start; */
+    z-index: -100;
+    justify-content: end;
+    /* filter: grayscale(); */
+}
+.skill-title{
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.skill-description{
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+.box{
+    /* border: 1px solid black; */
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 200px; */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.162);
+    transition: all 0.3s;
+    background: linear-gradient(white 60%,#FCF6F5);
+}
+
+.red{
+    color: #d50019;
+}
+.underline{
+    text-decoration: underline;
+}
+.highlight{
+    background-color: yellow;
+}
+
+
+
+
+/* Work Section */
+#work{
+    /* height: 250vh; */
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(-60deg ,rgb(0, 0, 60) 10%, rgb(135, 135, 209) 60%,rgb(0, 0, 60));
+}
+.work-head{
+    /* height: 20vh;*/
+    width: 100%; 
+    font-size: 50px;
+    padding: 40px 20px 50px 20px;
+    /* padding-top: 30px; */
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: black;
+}
+
+.project-list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.project{
+    height: 55vh;
+    width: 80%;
+    background-color: white;
+    display: flex;
+}
+.project:last-of-type{
+    margin-bottom: 50px;
+}
+.work-pic{
+    height: 100%;
+    width: 65%;
+    /* background-color: #990011; */
+    /* overflow: hidden; */
+    transition: all 2s;
+}
+.work-pic > img{
+    height: 100%;
+    /* width: 100%; */
+}
+.reserved{
+    flex-direction: row-reverse;
+}
+.work-des{
+    height: 100%;
+    width: 35%;
+    /* background-color: white; */
+    /* color: black; */
+    background: linear-gradient(90deg, rgb(10, 10, 10), rgb(39, 39, 39));
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;} */
+    justify-content: center;
+    padding: 30px;
+    color: white;
+}
+.des-head{
+    color: #990011;
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.work-context{
+    font-size: 12px;
+}
+
+
+
+/* About Section */
+#about{
+    /* height: 100vh; */
+    height: fit-content;
+    width: 100%;
+}
+.about-head{
+    height: 20vh;
+    width: 100%;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 5px 0; */
+    /* margin-top: 30px; */
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#about-flex{
+    /* height: 80vh; */
+    width: 100%;
+    display: flex;
+    /* background-color: rgb(7, 7, 7);
+    color: white; */
+}
+.dp-2{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(90deg ,#317774,#e6dfee 50%); */
+}
+.dp-2 img{
+    width: 70%;
+    /* margin: auto; */
+    border-radius: 700px;
+}
+.about-div{
+    width: 60%;
+    font-size: 15px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    /* line-height: 30px; */
+    /* background-color:#e6dfee; */
+}
+.about-div > p{
+    margin-bottom: 30px;
+}
+.dwn-resume{
+    width: fit-content;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 3px solid #990011;
+    color: #990011;
+    margin: 5vh auto 10vh;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+/* Contact section */
+#contact{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(7, 7, 7);
+    color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contact > .text-1{
+    /* padding-top: 15vh; */
+    text-align: center;
+    font-size: 70px;
+}
+#contact > .text-2{
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 200;
+}
+.contact-option{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 28px;
+}
+.contact-option a{
+    color: white;
+    display: block;
+    padding: 20px 30px 10px 30px;
+    /* vertical-align: middle; */
+    /* text-align: center; */
+    transition: all 0.3s;
+}
+.contact-icon{
+    width: 40px;
+    filter: invert();
+    margin-bottom: -8px;
+}
+
+
+/* red line css */
+.red-line{
+    /* padding: 100px; */
+    border-bottom: 5px solid #990011;
+}
+.copyright{
+    text-align: center;
+    font-size: 14px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    background-color: rgb(7, 7, 7);
+    color: rgb(238, 238, 238);
+}
+
+
+
